@@ -1,0 +1,9 @@
+../Core/Src/main.c:37:7:NMEA_to_Decimal	5
+../Core/Src/main.c:54:6:Parse_GPGGA	10
+../Core/Src/main.c:134:5:main	5
+../Core/Src/main.c:233:6:SystemClock_Config	3
+../Core/Src/main.c:279:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:312:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:345:13:MX_USART6_UART_Init	2
+../Core/Src/main.c:378:13:MX_GPIO_Init	1
+../Core/Src/main.c:403:6:Error_Handler	1
