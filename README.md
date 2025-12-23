@@ -38,3 +38,14 @@ Ride statistics including speed, distance, and history
 User-friendly UI for managing multiple bikes and profiles
 
 Secure authentication using Firebase
+
+
+⚙️ Hardware Architecture
+[STM32F407G] --> [GPS Module (NEO-6M)]
+       |
+       --> [Bluetooth Module (HC-05)] --> Mobile App (Flutter)
+STM32F407G reads GPS data.
+
+Transmits location & speed to the mobile app via HC-05 Bluetooth.
+
+Mobile app displays data in real-time and stores it in Firebase.
